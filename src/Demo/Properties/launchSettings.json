@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Demo": {
+      "commandName": "Project",
+      "nativeDebugging": false,
+      "hotReloadEnabled": false
+    }
+  }
+}
