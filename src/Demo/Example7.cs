@@ -20,7 +20,7 @@ internal unsafe class Example7 : IExample
 
     }
 
-    private static ref LargeStruct Test(ref LargeStruct returnBuffer, long s)
+    public static ref LargeStruct Test(ref LargeStruct returnBuffer, long s)
     {
         Console.WriteLine(s);
         returnBuffer = new LargeStruct(1, 2, 3, 4);

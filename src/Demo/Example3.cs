@@ -18,7 +18,7 @@ internal unsafe class Example3 : IExample
 
     }
 
-    private static void Test(long s)
+    public static void Test(long s)
     {
         Console.WriteLine(s);
     }

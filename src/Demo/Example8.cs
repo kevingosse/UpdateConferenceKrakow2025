@@ -19,7 +19,7 @@ internal unsafe class Example8 : IExample
 
     private string Name;
     
-    private void Test()
+    public void Test()
     {
         Console.WriteLine($"this is null: {this is null}");
         Console.WriteLine(this.Name);

@@ -10,14 +10,14 @@ internal unsafe class Example1 : IExample
         Debugger.Break();
 
 
-        var address = GetTestMethod();
+        IntPtr address = GetTestMethod();
         var test = (delegate*<LargeStruct, void>)address;
 
         test(new LargeStruct(1, 2, 3, 4));
 
     }
 
-    private static void Test(LargeStruct s)
+    public static void Test(LargeStruct s)
     {
         Console.WriteLine(s);
     }

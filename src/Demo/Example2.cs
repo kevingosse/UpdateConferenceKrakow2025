@@ -19,7 +19,7 @@ internal unsafe class Example2 : IExample
 
     }
 
-    private static void Test(LargeStruct s)
+    public static void Test(LargeStruct s)
     {
         Console.WriteLine(s);
     }

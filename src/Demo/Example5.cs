@@ -20,7 +20,7 @@ internal unsafe class Example5 : IExample
 
     }
 
-    private static LargeStruct Test(long s)
+    public static LargeStruct Test(long s)
     {
         Console.WriteLine(s);
         return new LargeStruct(1, 2, 3, 4);
